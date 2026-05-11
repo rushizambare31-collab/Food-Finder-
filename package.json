@@ -1,0 +1,25 @@
+{
+  "name": "projectbyusing_html_tailwindcss_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ProjectByUsing_HTML_TailwindCSS_JS.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rushizambare31-collab/Food-Finder-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rushizambare31-collab/Food-Finder-/issues"
+  },
+  "homepage": "https://github.com/rushizambare31-collab/Food-Finder-#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.0",
+    "tailwindcss": "^4.3.0"
+  }
+}
