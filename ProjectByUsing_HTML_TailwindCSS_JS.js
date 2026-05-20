@@ -23,7 +23,7 @@ search_button_var.addEventListener("click", function () {
                 recipe_foundNotFound_div.className = "bg-amber-300 size-96 ml-[525px] rounded-2xl overflow-hidden";
 
                 let img_notFound = document.createElement("img");
-                img_notFound.src = "/Web development (full stack)/HTML/HTML IMAGES/Food Recipe images/Recipe not found.jpeg";
+                img_notFound.src = "/Recipe not found.jpeg";
                 img_notFound.alt = "Recipe Are Not Found";
 
                 recipe_foundNotFound_div.appendChild(img_notFound);
@@ -244,3 +244,6 @@ search_button_var.addEventListener("click", function () {
             }
         });
 });
+
+
+

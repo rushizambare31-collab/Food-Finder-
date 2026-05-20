@@ -1,0 +1,99 @@
+<!-- Food Finder : ProjectByUsing_HTML_TailwindCSS_JS  -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOOD FINDER</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="/RISHI.jpeg">
+    <link rel="stylesheet" href="./output.css">
+
+
+</head>
+
+<body>
+
+    <div class="h-screen w-full bg-orange-600 relative">
+
+        <div class="w-[98%] bg-orange-200 h-[94%] m-4 overflow-hidden  absolute top-0 left-0 z-10">
+
+            <!-- Navbar :  -->
+            <div class=" h-20 w-full flex items-center absolute top-0 left-0 z-10">
+                <div class="bg-amber-950 rounded-full overflow-hidden h-10 w-10 mt-1 ml-10">
+                    <img class="bg-contain " src="/RISHI.jpeg" alt="">
+                </div>
+                <div class="ml-5 text-3xl text-yellow-500"><i><b>RUSHIKESH</b></i></div>
+
+
+                <div class="ml-[1150px] rounded-full content-center size-10 bg-white">
+                    <i class="ml-1 mt-[7px] text-[25px] fa-regular fa-sun"></i>
+                    <div class="text-white mt-2"><i><b>Light</b></i></div>
+                </div>
+            </div>
+
+            <div class=" h-[300px] w-full absolute top-20 content-center justify-items-center left-0 z-10 ">
+                <h1 class="text-6xl font-bold text-orange-100"><i>FOOD RECIPE FINDER</i></h1>
+                <h3 class="text-2xl font-bold">Let's Cook Something Amazing! Let's Find...</h3>
+
+
+                <!-- search barr -->
+                <div
+                    class="sticky top-0 z-50 mt-5 h-14 w-[600px]  border-[3px] border-orange-300 flex rounded-2xl overflow-hidden shadow-lg">
+                    <div
+                        class="h-12 w-12 relative m-1 ml-4 rounded-2xl flex border-t-6 border-t-orange-500 border-r-2 border-r-orange-500 items-center justify-center">
+                        <i class="text-3xl fa-solid fa-magnifying-glass"></i>
+                    </div>
+
+                    <!-- input barr -->
+                    <div class=" h-14 w-[400px] ml-2 relative flex ">
+                        <input id="search_box"
+                            class="w-[400px] text-2xl font-bold text-orange-200 outline-none focus:outline-none border-none focus:border-none focus:ring-0 ml-2"
+                            type="text" placeholder="Search Recipe Here">
+                    </div>
+
+                    <!-- search button -->
+                    <div id="search_button"
+                        class="h-14 w-[150px] bg-orange-500 flex justify-center items-center text-2xl font-semibold hover:bg-orange-600 hover:cursor-pointer">
+                        Search</div>
+
+                </div>
+
+            </div>
+
+            <div>
+                <img class=""
+                    src="/Edited heros image 2.jpeg"
+                    alt="">
+            </div>
+        </div>
+
+    </div>
+
+    <div class="bg-orange-500 min-h-96 w-full p-10">
+        <h3 id="recipe_found_notFound" class=" text-3xl text-black text-center font-semibold ">Search Any Recipe...</h3>
+        <br />
+
+        <!-- container : it consist all recipes -->
+        <div id="card_container" class="flex flex-wrap gap-0  ">
+
+        </div>
+
+    </div>
+
+    <script
+        src="/ProjectByUsing_HTML_TailwindCSS_JS.js"></script>
+</body>
+
+</html>                                 
+
+
+
+
+
+
+
