@@ -20,6 +20,7 @@
   "homepage": "https://github.com/rushizambare31-collab/Food-Finder-#readme",
   "dependencies": {
     "@tailwindcss/cli": "^4.3.0",
+    "dotenv": "^17.4.2",
     "tailwindcss": "^4.3.0"
   }
 }
